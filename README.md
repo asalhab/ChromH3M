@@ -16,4 +16,7 @@ It takes segment files produced by MethylSeekR as input and binarizes the binned
    - -b maximum number of ChromHMM states
 
 **Caution:**
-you have to change the TMPDIR, give the path of ChromHMM.jar and Rscript in [ChromH3M.sh](https://github.com/asalhab/ChromH3M/blob/master/ChromH3M.sh#L58) script
+you have to change/provide the following:
+ - temporary directory where the calculations are done [TMPDIR](https://github.com/asalhab/ChromH3M/blob/master/ChromH3M.sh#L61)
+ - give the path of ChromHMM.jar and Rscript in [ChromH3M.sh](https://github.com/asalhab/ChromH3M/blob/master/ChromH3M.sh#L58)
+ - give the genome length and the corresponding gaps file paths in [meth\_avg.sh](https://github.com/asalhab/ChromH3M/blob/master/meth_avg.sh#L49)
