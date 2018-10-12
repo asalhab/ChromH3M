@@ -20,3 +20,24 @@ you have to change/provide the following:
  - temporary directory where the calculations are done [TMPDIR](https://github.com/asalhab/ChromH3M/blob/master/ChromH3M.sh#L61)
  - give the path of ChromHMM.jar and Rscript in [ChromH3M.sh](https://github.com/asalhab/ChromH3M/blob/master/ChromH3M.sh#L58)
  - give the genome length and the corresponding gaps file paths in [meth\_avg.sh](https://github.com/asalhab/ChromH3M/blob/master/meth_avg.sh#L49)
+ 
+# Citation:
+please cite the following paper if you used ChromH3M in your analysis:
+
+Salhab A, Nordström K, Gasparoni G, Kattler K, Ebert P, Ramirez F, Arrigoni L, Müller F, Polansky JK, Cadenas C, et al. A comprehensive analysis of 195 DNA methylomes reveals shared and cell-specific features of partially methylated domains. Genome Biology. 2018; 19(1):150.
+
+```Tex
+@article{salhab2018comprehensive,
+  title={A comprehensive analysis of 195 DNA methylomes reveals shared and cell-specific features of partially methylated domains},
+  author={Salhab, Abdulrahman and Nordstr{\"o}m, Karl and Gasparoni, Gilles and Kattler, Kathrin and Ebert, Peter and Ramirez, Fidel and Arrigoni, Laura and M{\"u}ller, Fabian and Polansky, Julia K and Cadenas, Cristina and others},
+  journal={Genome Biology},
+  volume={19},
+  number={1},
+  pages={150},
+  year={2018},
+  publisher={BioMed Central},
+  doi={10.1186/s13059-018-1510-5},
+  url={https://doi.org/10.1186/s13059-018-1510-5}
+}
+```
+
